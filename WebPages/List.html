@@ -1,0 +1,71 @@
+<!Doctype html>
+<html>
+<head>
+<title> List</title>
+<style>
+ol{
+List-style: upper-roman;
+
+}
+ul{
+List-style-type: square;
+}
+li{
+float: left;
+margin: 20px;
+}
+
+.navigation ul{
+	font: bold 11px "Helvetica Neue", Helvetica,Arial,sans-serif;
+	margin: 0;
+	padding: 0;
+	text-transfrom: uppercase;
+}
+
+.navigation li {
+	display: inline-block;
+}
+.navigation a {
+	background: #395870;
+	background: linear-gradient(#49708f, #293f50);
+	border-right: 1px solid rgba(0,0,0.3);
+	color: #fff;
+	padding: 12px 20px;
+	text-decoration:none;
+}
+.navigation a:hover {
+	background:#314b60;
+	box-shadow: inset 0 0 10px 1px rgba(0,0,0,.3);
+}
+
+.navigation li:first-child a {
+	border-radius: 4px 0 0 4px;
+}
+.navigation li:last-child a { 
+	border-right: 0;
+	border-radius: 0 4px 4px 0;
+}
+
+</style>
+</head>
+<body>
+<ul>
+<li>Red</li>
+<li>Blue</li>
+<li>Green</li>
+</ul>
+<ol>
+<li> Chicken</li>
+<li> Steak</li>
+<li> pizza</li>
+</ol>
+<nav class="navigation">
+	<ul>
+		<li> <a href="#"> Profile </a></li>
+		<li> <a href="#"> Settings </a></li>
+		<li> <a href="#"> Notifications </a></li>
+	</ul>
+</nav>
+
+</body>
+</html>
